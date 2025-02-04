@@ -6,125 +6,119 @@
     
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&family=Playwrite+NL+Guides&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
-    .main{
-    height: 600px;
-    width: 1160px;
-    background-color: rgb(216, 235, 148);
-    margin: 25px 150px;
-    border:5px dashed black;
-     padding: 10px;
-     align-items: center;
- 
-    
-}
-.heading{
-    font-family: "Playwrite AU SA", serif;
-    height: 40px;
-    font-weight: 500;
-    font-size: 50px;
-   color: rgb(9, 78, 146);
-   margin-top: 10px;
-  
-}
-.info{
-    font-family: "Cormorant Garamond", serif; ;
-    margin-top: 60px;
-    font-weight: 200;
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
 
-}
-.name{
-    font-weight: 400;
-    font-size: 40px;
-    font-family: "DM Serif Text", serif;
-    margin-top: 10px;
-}
-.img{
-height: 100px ;
-width: 130px;
-align-items: start;
-margin-top: 30px;
-}
-/*mobile screen*/
-@media screen and (max-width: 600px){
-    .main{
-        height: 720px;
-        width: 600px;
-        margin: 0%;
-    
-    }
-    .heading{
-        font-size: 30px;
-    }
-}
- /*mobile screen*/
- @media screen and (min-width: 600px) and (max-width: 768px){
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-    .main{
-        height: 720px;
-        width: 600px;
-        margin: 0%;
-    
-    }
-    .heading{
-        font-size: 30px;
-    }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+            font-family: "Cormorant Garamond", serif;
+            padding: 10px;
+        }
 
- }
-   /*tablet screen*/
-       @media screen and (min-width: 769px) and (max-width: 992px){
- .main{
-        height: 720px;
-        width: 769px;
-        margin: 0%;
-        margin-right: 10px;
-    
-    }
-    .heading{
-        font-size: 30px;
-    }
+        .main {
+            max-width: 100%;
+            width: 90%;
+            max-width: 1160px;
+            background-color: rgb(216, 235, 148);
+            border: 5px dashed black;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+        }
 
-       }
+        .heading {
+            font-family: "Playwrite AU SA", serif;
+            font-size: 40px;
+            color: rgb(9, 78, 146);
+            margin-bottom: 10px;
+        }
 
+        .info {
+            font-size: 18px;
+            font-weight: 400;
+            margin-top: 20px;
+        }
 
-     /*laptop screen*/
-     @media screen and (min-width: 993px) and (max-width: 1200px){
+        .name {
+            font-weight: 600;
+            font-size: 30px;
+            font-family: "DM Serif Text", serif;
+            margin-top: 10px;
+            text-decoration: underline;
+        }
 
-.main{
-    margin: 0%;
-}
+        .img {
+            width: 120px;
+            height: auto;
+            margin-top: 20px;
+        }
 
+        /* Responsive Design */
+        @media screen and (max-width: 768px) {
+            .main {
+                width: 95%;
+                padding: 15px;
+            }
+            .heading {
+                font-size: 28px;
+            }
+            .info {
+                font-size: 16px;
+            }
+            .name {
+                font-size: 25px;
+            }
+            .img {
+                width: 100px;
+            }
+        }
 
-     }    
+        @media screen and (max-width: 480px) {
+            .main {
+                width: 100%;
+                padding: 10px;
+                border-width: 3px;
+            }
+            .heading {
+                font-size: 24px;
+            }
+            .info {
+                font-size: 14px;
+            }
+            .name {
+                font-size: 22px;
+            }
+            .img {
+                width: 90px;
+            }
+        }
     </style>
-
 </head>
 <body>
     <div class="main">
-
-
-    <center>
-    <div class="heading">Certification of Complition </div>
-    <div class="info">THIS IS TO CERTIFY THAT</div>
-    
-
-    <div class="name"><u>PARTHIV DIPAK RATHOD</u></div>
-      <div  class="info"> demonstrated exceptional engagement and involvement during the Sci-Research Workshop, which took place from 02-04 April 2023,
-     where she exhibited an enthusiastic and dedicated approach, actively participating for a total of  12 hours.</div>
-     <div class="info">For the outstanding skills and dedication to the team's Research and Development in the aviation sector of the company.<br>
-       <h4>Given on FEB 12, 2025.</h4> </div>
-
-    <div class="img">
-        <img class="img" src="certified.png">
+        <div class="heading">Certification of Completion</div>
+        <div class="info">THIS IS TO CERTIFY THAT</div>
+        <div class="name">PARTHIV DIPAK RATHOD</div>
+        <div class="info">
+            Demonstrated exceptional engagement and involvement during the Sci-Research Workshop, which took place from April 2-4, 2023.
+            <br>He exhibited an enthusiastic and dedicated approach, actively participating for a total of 12 hours.
+        </div>
+        <div class="info">
+            For outstanding skills and dedication to the team's Research and Development in the aviation sector of the company.
+            <br>
+            <h4>Given on FEB 12, 2025.</h4>
+        </div>
+        <img class="img" src="certified.png" alt="Certification Logo">
     </div>
-    
-   </center>
-
-
-
-</div>
-
 </body>
 </html>
